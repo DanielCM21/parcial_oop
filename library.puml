@@ -1,0 +1,18 @@
+@startuml
+
+class Libreria{
+libros:list
+cantidad_libros:int
+cargar()
+retirar()
+}
+
+class Usuario{
+usuario:string
+prestamo()
+devolucion()
+}
+
+@enduml
+
+Libreria --* Usuario
